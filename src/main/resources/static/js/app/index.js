@@ -2,7 +2,6 @@ var main= {
     init : function (){
         var _this = this;
         $('#btn-save').on('click',function (){
-            alert('뭐노 시발')
             _this.save();
         });
     },
