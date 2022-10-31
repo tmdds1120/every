@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>헤드 부분</title>
+    <div th:fragment="head">
+        <meta http-equiv="Content-Type" content="text/html"; charset="UTF-8">
+        <!-- 합쳐지고 최소화된 최신 CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+        <!-- 부가적인 테마 -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+
+    </div>
+</head>
+<body>
+<div th:fragment="js-query">
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<!--    인덱스 js 처리 추가 -->
+<!--    <script src="/js/app/index.js"></script>-->
+</div>
+</body>
+
+</html>
