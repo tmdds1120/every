@@ -29,7 +29,9 @@ dependencies {
     implementation 'org.projectlombok:lombok:1.18.24'
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa:2.7.5'
     implementation 'mysql:mysql-connector-java'
-    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf:2.5.4'
+    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf:2.7.5'
+    implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
+    implementation 'org.springframework.session:spring-session-jdbc'
 
 
     testImplementation 'org.springframework.boot:spring-boot-starter-test:2.7.5'
